@@ -15,7 +15,7 @@ const apiKey = `NfemxOdrbcT_XlaAH6Z6iIdYLLZJGTyDkVdSYitZp-4`;
 let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 function updateAPIURLWithNewCount(picCount){
-    apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${picCountount}`;
+    apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${picCount}`;
 }
 // check if all images were loaded
 function imageLoaded(){
